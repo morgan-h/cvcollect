@@ -10,6 +10,7 @@ gem 'haml'
 gem 'bourbon'
 gem 'will_paginate'
 gem 'rails-i18n'
+gem 'devise'
 
 # Gems used only for assets and not required
 # in production environments by default.

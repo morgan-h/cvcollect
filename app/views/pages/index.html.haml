@@ -1,1 +1,5 @@
 =t('.welcome')
+- if I18n.locale == :fr 
+    = link_to "Go to english version", root_path(locale: "en")
+- elsif I18n.locale == :en
+    = link_to "Aller à la version française", root_path(locale: "fr")
